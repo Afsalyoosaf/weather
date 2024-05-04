@@ -8,12 +8,12 @@ import './App.css'
 function App() {
    const [data,setData]=useState("")
    const [weather,setWeather]=useState({})
-   const clouds=[{weather:"few clouds",image:"../public/few2.jpg"},
-                  {weather:"broken clouds",image:"../public/broken2.jpg"},
-                  {weather:"scatterd clouds",image:"../public/scatterd.jpg"},
-                  {weather:"overcast clouds",image:"../public/overcast2.webp"},
-                  {weather:"clear sky",image:"../public/clear.webp"},
-                  {weather:"light rain",image:"../public/lightrain.jpg"}
+   const clouds=[{weather:"few clouds",image:"./few2.jpg"},
+                  {weather:"broken clouds",image:"./broken2.jpg"},
+                  {weather:"scatterd clouds",image:"./scatterd.jpg"},
+                  {weather:"overcast clouds",image:"./overcast2.webp"},
+                  {weather:"clear sky",image:"./clear.webp"},
+                  {weather:"light rain",image:"./lightrain.jpg"}
                 ]
 
   const getWeather=async()=>{
